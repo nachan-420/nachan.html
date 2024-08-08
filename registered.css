@@ -1,0 +1,50 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cadetblue;
+}
+h2{
+    text-align: center;
+}
+form{
+    height: 500px;
+    padding: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 5px;
+}
+label{
+    display: block;
+    margin: 1px;
+    font-weight: bold;
+}
+select{
+    width: 55%;
+    padding: 4px;
+    border: 1px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    color:darkslategray
+    background-color: rgb(196,197,245)
+    cursor: grab;
+    margin-top: 7px;
+    margin-left: 10px; 
+}
+input[type="submit"]:hover{
+    background-color: burlywood;
+}
+.main{
+    width: 400px;
+    margin:auto;
+    height: auto;
+}
+input[type="text"]{
+    width: 70%;
+}
+input[type="password"]{
+    width: 70%;
+}
+input[type="tel"]{
+    width: 70%;
+}
